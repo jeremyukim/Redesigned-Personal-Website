@@ -1,0 +1,55 @@
+html, body, h1, h2, p {
+	background-color: #f1f1f1;
+}
+
+/*========== Fonts ===========*/
+.script {
+	font-family: "Kaushan Script", cursive;
+}
+
+.openSans {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+}
+
+.openSansItalic {
+	font-family: "Open Sans", italic;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.raleway {
+	font-family: "Raleway";
+}
+/*=========================*/
+.intro {
+	display: inline-block;
+	margin: 3em 0 3em 4em;
+	font-size: 1em;
+}
+
+.eng {
+	border-bottom: 1px solid #000;
+}
+
+.namediv {
+	max-width: 100%;
+
+}
+
+.name {
+	overflow: hidden;
+	font-size: 4em;
+	background: rgba(10, 10, 10, 0.7);
+	color: #fff;
+	padding: 3px 80px;
+}
+
+.nav {
+	margin: 3em 4em 0em;
+}
+
+.nav_entry {
+	margin-bottom: 1.5em;
+	font-size: 1.2em;
+}
