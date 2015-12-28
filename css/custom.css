@@ -1,5 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+
 html, body, h1, h2, p {
 	background-color: #f1f1f1;
+	background-size: cover;
 }
 
 /*========== Fonts ===========*/
@@ -21,10 +26,10 @@ html, body, h1, h2, p {
 .raleway {
 	font-family: "Raleway";
 }
-/*=========================*/
+/*===========================*/
 .intro {
 	display: inline-block;
-	margin: 3em 0 3em 4em;
+	margin: 3em 0 6em 4em;
 	font-size: 1em;
 }
 
@@ -32,9 +37,15 @@ html, body, h1, h2, p {
 	border-bottom: 1px solid #000;
 }
 
-.namediv {
-	max-width: 100%;
+.verticalcenter {
+	height: 100vh;
+}
 
+.namediv {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0;
 }
 
 .name {
@@ -43,13 +54,27 @@ html, body, h1, h2, p {
 	background: rgba(10, 10, 10, 0.7);
 	color: #fff;
 	padding: 3px 80px;
+	margin: 0;
 }
 
 .nav {
-	margin: 3em 4em 0em;
+	margin: 0em 4em 0em;
 }
 
 .nav_entry {
 	margin-bottom: 1.5em;
 	font-size: 1.2em;
+	max-width: 100%;
+}
+
+@media (max-width: 960px){
+	.namediv {
+		background: #aaa;
+		margin: 0;
+		top: 0;
+	}
+
+	.name {
+		font-size: 2.5em;
+	}
 }
