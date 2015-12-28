@@ -25,11 +25,53 @@ html, body, h1, h2, p {
 .lato {
 	font-family: "lato";
 }
-/*===========================*/
+/*=========== Images =========*/
+.contain {
+	max-width: 100%;
+}
+
+.main-content {
+	max-width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+.images {
+	z-index: 1;
+	position: absolute;
+}
+
+#latte {
+	width: 35%;
+	margin: 30vh -1vh 0.5vh 0;
+}
+
+#desk {
+	width: 50%;
+	margin: 0.5vh -1vh 0 0;
+}
+
+#ukulele {
+	width: 20%;
+	max-width: 140px;
+	margin: 10vh 0 0 -1vh;
+}
+
+#guitar {
+	width: 9.17%;
+}
+
+#food {
+	width: 30%;
+	margin: 0 0 0 -1vh;
+}
+
+/*=============================*/
 .intro {
 	display: inline-block;
 	margin: 3em 0 6em 4em;
 	font-size: 1em;
+	z-index: 20;
 }
 
 .eng {
@@ -81,8 +123,12 @@ html, body, h1, h2, p {
 	}
 }
 
-@media (max-width: 990px){
+@media (max-width: 992px){
 	
+	.images {
+		display: none;
+	}
+
 	.intro {
 		margin-top: 2em;
 		margin-left: 1em;
@@ -118,7 +164,6 @@ html, body, h1, h2, p {
 	.nav {
 		margin-top: 7em;
 	}
-
 }
 
 @media (max-width: 390px){
