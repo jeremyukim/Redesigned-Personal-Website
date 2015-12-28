@@ -70,6 +70,17 @@ html, body, h1, h2, p {
 /*========= Media Queries =========*/
 
 @media (max-width: 960px){
+	
+	.intro {
+		margin-top: 2em;
+		margin-left: 1em;
+	}
+
+	.nav {
+		margin-top: 6em;
+		margin-left: 1em;
+	}
+
 	.namediv {
 		background: #aaa;
 		margin: 0;
@@ -83,9 +94,5 @@ html, body, h1, h2, p {
 
 	.verticalcenter {
 		height: 0;
-	}
-
-	.nav {
-		margin-top: 5em;
 	}
 }
