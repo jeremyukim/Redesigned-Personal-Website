@@ -22,8 +22,8 @@ html, body, h1, h2, p {
 	font-style: italic;
 }
 
-.raleway {
-	font-family: "Raleway";
+.lato {
+	font-family: "lato";
 }
 /*===========================*/
 .intro {
@@ -74,7 +74,14 @@ html, body, h1, h2, p {
 
 /*========= Media Queries =========*/
 
-@media (max-width: 960px){
+@media (max-width: 1220px){
+
+	.name {
+		font-size: 2.8em;
+	}
+}
+
+@media (max-width: 990px){
 	
 	.intro {
 		margin-top: 2em;
@@ -94,10 +101,52 @@ html, body, h1, h2, p {
 	}
 
 	.name {
-		font-size: 2.5em;
+		font-size: 2.3em;
 	}
 
 	.verticalcenter {
 		height: 0;
 	}
 }
+
+@media (max-width: 430px){
+
+	.name {
+		font-size: 3em;
+	}
+
+	.nav {
+		margin-top: 7em;
+	}
+
+}
+
+@media (max-width: 390px){
+
+	.name {
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 355px){
+
+	.name {
+		font-size: 2.2em;
+	}
+}
+
+@media (max-width: 340px){
+
+	.name {
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 322px){
+
+	.name {
+		font-size: 1.8em;
+	}
+}
+
+
