@@ -4,7 +4,6 @@
 
 html, body, h1, h2, p {
 	background-color: #f1f1f1;
-	background-size: cover;
 }
 
 /*========== Fonts ===========*/
@@ -58,7 +57,7 @@ html, body, h1, h2, p {
 }
 
 .nav {
-	margin: 0em 4em 0em;
+	margin: -20em 4em 0em;
 }
 
 .nav_entry {
@@ -67,14 +66,26 @@ html, body, h1, h2, p {
 	max-width: 100%;
 }
 
+
+/*========= Media Queries =========*/
+
 @media (max-width: 960px){
 	.namediv {
 		background: #aaa;
 		margin: 0;
 		top: 0;
+		bottom: 0;
 	}
 
 	.name {
 		font-size: 2.5em;
+	}
+
+	.verticalcenter {
+		height: 0;
+	}
+
+	.nav {
+		margin-top: 5em;
 	}
 }
