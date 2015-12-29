@@ -108,7 +108,7 @@ html, body, h1, h2, p {
 
 .latteText {
 	margin-top: 25vh;
-	margin-right: 8vh;
+	margin-right: 7vh;
 }
 
 .guitarText {
@@ -117,6 +117,12 @@ html, body, h1, h2, p {
 
 .foodText {
 	margin-top: -3.5vh;
+	margin-left: 8vh;
+}
+
+.webappText {
+	margin-top: 1vh;
+	margin-right: 5.5vh;
 }
 
 /*=============================*/
@@ -173,6 +179,10 @@ html, body, h1, h2, p {
 
 	.name {
 		font-size: 2.8em;
+	}
+
+	.webappText {
+		margin-right: 0;
 	}
 }
 
@@ -255,7 +265,6 @@ html, body, h1, h2, p {
 
 	.guitarText {
 		margin-top: 15vh;
-		margin-bottom: 2vh;
 	}
 
 	.foodText {
@@ -271,7 +280,6 @@ html, body, h1, h2, p {
 
 	.guitarText {
 		margin-top: 0vh;
-		margin-bottom: 2vh;
 	}
 }
 
@@ -283,7 +291,6 @@ html, body, h1, h2, p {
 
 	.guitarText {
 		margin-top: 5vh;
-		margin-bottom: 2vh;
 	}
 }
 
@@ -295,7 +302,6 @@ html, body, h1, h2, p {
 
 	.guitarText {
 		margin-top: 23vh;
-		margin-bottom: 2vh;
 	}
 }
 
@@ -307,7 +313,6 @@ html, body, h1, h2, p {
 
 	.guitarText {
 		margin-top: 18vh;
-		margin-bottom: 2vh;
 	}
 }
 
@@ -341,7 +346,6 @@ html, body, h1, h2, p {
 
 	.guitarText {
 		margin-top: 10vh;
-		margin-bottom: 2vh;
 	}
 }
 
@@ -378,7 +382,7 @@ html, body, h1, h2, p {
 	}
 }
 
-@media (max-width: 1350px) and (min-width: 1249px) and (min-height: 800px){
+@media (max-width: 1400px) and (min-width: 1249px) and (min-height: 800px){
 
 	.guitarText {
 		margin-top: 22vh;
