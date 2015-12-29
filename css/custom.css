@@ -44,29 +44,44 @@ html, body, h1, h2, p {
 
 #latte {
 	width: 32%;
-	margin: 30vh -1.2vh 0.5vh 0;
+	margin: 30vh -1vh 0.5vh 0;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
 #desk {
 	width: 44%;
-	margin: 0.5vh -1.2vh 0 0;
+	margin: 0.5vh -1vh 0 0;
+	-webkit-box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
 }
 
 #ukulele {
 	width: 18%;
 	max-width: 140px;
-	margin: 10vh 0 0 -1.2vh;
+	margin: 15vh 0 0 -1vh;
+	-webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
 #guitar {
 	width: 8.25%;
 	max-width: 64px;
-	margin: 10vh 0 0 1vh;
+	margin: 15vh 0 0 1vh;
+	-webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
 #food {
 	width: 30%;
-	margin: 0 0 0 -1.2vh;
+	margin: 0 0 0 -1vh;
+	-webkit-box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.75);
 }
 
 /*=============================*/
@@ -100,9 +115,9 @@ html, body, h1, h2, p {
 	color: #fff;
 	padding: 3px 80px;
 	margin: 0;
-	-webkit-box-shadow: 6px 8px 32px -2px rgba(0,0,0,0.75);
-	-moz-box-shadow: 6px 8px 32px -2px rgba(0,0,0,0.75);
-	box-shadow: 6px 8px 32px -2px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 6px 8px 20px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 8px 20px -2px rgba(0,0,0,0.75);
+	box-shadow: 6px 8px 20px -2px rgba(0,0,0,0.75);
 }
 
 .nav {
