@@ -124,6 +124,12 @@ html, body, h1, h2, p {
 	margin-right: 5.5vh;
 }
 
+.latteText, .guitarText, .foodText, .webappText {
+	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: 1.8s;
+  	-moz-animation-duration: 1s;
+  	-moz-animation-delay: 1.8s;
+}
 /*=============================*/
 .intro {
 	display: inline-block;
