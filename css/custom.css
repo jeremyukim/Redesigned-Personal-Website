@@ -37,9 +37,8 @@ html, body, h1, h2, p {
 }
 
 .images {
-	z-index: 1;
 	position: absolute;
-	max-width: 100%;
+	width: 98%;
 }
 
 #latte {
