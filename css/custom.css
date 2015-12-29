@@ -44,44 +44,42 @@ html, body, h1, h2, p {
 
 #latte {
 	width: 32%;
-	margin: 30vh -1vh 0.5vh 0;
-	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	margin: 35vh -1vh 0.5vh 0;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 #desk {
 	width: 44%;
 	margin: 0.5vh -1vh 0 0;
-	-webkit-box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.75);
 }
 
 #ukulele {
-	width: 18%;
-	max-width: 140px;
-	margin: 15vh 0 0 -1vh;
-	-webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+	width: 14.4%;
+	margin: 25vh 0 0vh -1vh;
+	-webkit-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 #guitar {
-	width: 8.25%;
-	max-width: 64px;
-	margin: 15vh 0 0 1vh;
-	-webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+	width: 6.6%;
+	margin: 25vh 0 0vh 1vh;
+	-webkit-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 #food {
 	width: 30%;
 	margin: 0 0 0 -1vh;
-	-webkit-box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -3px -3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -3px -3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -3px -3px 5px 0px rgba(0,0,0,0.75);
 }
 
 /*=============================*/
@@ -212,4 +210,63 @@ html, body, h1, h2, p {
 	}
 }
 
+@media (min-width: 1600px){
+
+	#latte {
+		margin-top: 30vh;
+	}
+
+	#guitar, #ukulele {
+		margin-top: 20vh;
+		margin-bottom: 2vh;
+	}
+}
+
+@media (max-height: 500px) and (min-width: 1000px){
+
+	#latte {
+		margin-top: 20vh;
+	}
+
+	#guitar, #ukulele {
+		margin-top: 10vh;
+		margin-bottom: 2vh;
+	}
+}
+
+@media (max-height: 800px) and (min-width: 1300px){
+
+	#latte {
+		margin-top: 15vh;
+	}
+
+	#guitar, #ukulele {
+		margin-top: 5vh;
+		margin-bottom: 2vh;
+	}
+}
+
+@media (min-height: 400px) and (max-width: 1000px){
+
+	#latte {
+		margin-top: 30vh;
+	}
+
+	#guitar, #ukulele {
+		margin-top: 20vh;
+		margin-bottom: 2vh;
+	}
+}
+
+@media (min-height: 600px) and (min-width: 1250px) and (max-width: 1600px){
+
+	#latte {
+		margin-top: 33vh;
+	}
+
+	#guitar, #ukulele {
+		margin-top: 23vh;
+		margin-bottom: 2vh;
+	}
+}
 
