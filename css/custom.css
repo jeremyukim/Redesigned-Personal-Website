@@ -36,6 +36,13 @@ html, body, h1, h2, p {
 	z-index: 10;
 }
 
+.logo {
+	width: 65px;
+	margin-top: 4em;
+	margin-right: 4em;
+
+}
+
 .images {
 	position: absolute;
 	width: 98%;
@@ -194,6 +201,10 @@ html, body, h1, h2, p {
 @media (max-width: 992px){
 	
 	.images {
+		display: none;
+	}
+
+	.logo {
 		display: none;
 	}
 
