@@ -11,6 +11,8 @@ html, body, h1, h2, p {
 	background: #333;
 	font-size: 1.2em;
 }
+
+
 /*========== Fonts ===========*/
 .script {
 	font-family: "Kaushan Script", cursive;
@@ -196,7 +198,7 @@ html, body, h1, h2, p {
 	padding-bottom: 7em;
 	width: 100%;
 	background-color: #333;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.0em;
 }
 
 #aboutText {
@@ -226,6 +228,66 @@ html, body, h1, h2, p {
 .me {
 	border-radius: 50%;
 	width: 200px;
+}
+
+/*========= Projects =========*/
+#projectSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	background-color: #fff;
+}
+
+.blackTitleOnWhite {
+	font-size: 3.5em;
+	color: #000;
+	background: #fff;
+}
+
+.blackTitleOnGrey {
+	font-size: 3.5em;
+	color: #000;
+	background: #f1f1f1;
+}
+
+#project1Section {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.projectTitle {
+	font-size: 3em;
+}
+
+.subheading {
+	font-size: 1.2em;
+	font-family: "Open Sans";
+}
+
+.description {
+	font-size: 1.1em;
+	font-family: "lato";
+}
+
+.orange {
+	color: #FF8C00;
+	background: ;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Kaushan Script";
+  color: #ffffff;
+  font-size: 22px;
+  background: #FF8C00;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #EE7B00;
+  text-decoration: none;
 }
 
 /*========= Media Queries =========*/
@@ -284,6 +346,10 @@ html, body, h1, h2, p {
 
 	.me {
 		display: none;
+	}
+
+	.btn {
+		margin-top: 15px;
 	}
 }
 
