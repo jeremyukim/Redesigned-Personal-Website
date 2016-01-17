@@ -245,6 +245,7 @@ a:hover {
 .me {
 	border-radius: 50%;
 	width: 200px;
+	box-shadow: 1px 1px 0px 0px #000;
 }
 
 /*========= Experience =========*/
