@@ -240,6 +240,7 @@ a {
 	border-radius: 50%;
 	width: 200px;
 }
+
 /*========= Experience =========*/
 #experienceSection {
 	padding-top: 3em;
@@ -388,6 +389,10 @@ footer {
 
 	.btn {
 		margin-top: 15px;
+	}
+
+	.boxShadow {
+		margin-top: 20px;
 	}
 }
 
