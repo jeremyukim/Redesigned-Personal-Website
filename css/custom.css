@@ -6,6 +6,11 @@ html, body, h1, h2, p {
 	background-color: #f1f1f1;
 }
 
+.whiteText {
+	color: #fff;
+	background: #333;
+	font-size: 1.1em;
+}
 /*========== Fonts ===========*/
 .script {
 	font-family: "Kaushan Script", cursive;
@@ -24,6 +29,10 @@ html, body, h1, h2, p {
 
 .lato {
 	font-family: "lato";
+}
+
+.raleway {
+	font-family: "Raleway";
 }
 /*=========== Images =========*/
 .contain {
@@ -146,7 +155,7 @@ html, body, h1, h2, p {
 }
 
 .eng {
-	border-bottom: 1px solid #000;
+	border-bottom: 2px solid #888;
 }
 
 .verticalcenter {
@@ -164,7 +173,7 @@ html, body, h1, h2, p {
 .name {
 	overflow: hidden;
 	font-size: 4em;
-	background: rgba(10, 10, 10, 0.7);
+	background: rgba(10, 10, 10, 0.8);
 	color: #fff;
 	padding: 3px 80px;
 	margin: 0;
@@ -181,10 +190,42 @@ html, body, h1, h2, p {
 	margin-bottom: 1.5em;
 	font-size: 1.2em;
 	max-width: 100%;
-	border-bottom: 1px solid #aaa;
+	border-bottom: 1px solid #777;
 }
 
+/*========= About =========*/
+#aboutSection {
+	padding-top: 7em;
+	padding-bottom: 7em;
+	width: 100%;
+	background-color: #333;
+	position: absolute;
+	letter-spacing: 0.05em;
+}
 
+#aboutText {
+	background: #333;
+	font-size: 3.5em;
+	letter-spacing: 0.1em;
+	margin-bottom: 0.5em;
+}
+
+.headline {
+  position: relative;
+}
+
+.headline:after {
+  content:' ';
+  position: absolute;
+  top:100%;
+  left:50%;
+  width: 120px;
+  border:2px solid #FF8C00;
+  border-radius:4px;
+  box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+  transform:translateX(-50%);
+
+}
 /*========= Media Queries =========*/
 
 @media (max-width: 1320px){
@@ -231,6 +272,12 @@ html, body, h1, h2, p {
 
 	.verticalcenter {
 		height: 0;
+	}
+}
+
+@media (max-width: 600px){
+	#aboutText {
+		font-size: 2.5em;
 	}
 }
 
