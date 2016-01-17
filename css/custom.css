@@ -9,7 +9,7 @@ html, body, h1, h2, p {
 .whiteText {
 	color: #fff;
 	background: #333;
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
 /*========== Fonts ===========*/
 .script {
@@ -31,9 +31,6 @@ html, body, h1, h2, p {
 	font-family: "lato";
 }
 
-.raleway {
-	font-family: "Raleway";
-}
 /*=========== Images =========*/
 .contain {
 	max-width: 100%;
@@ -155,7 +152,7 @@ html, body, h1, h2, p {
 }
 
 .eng {
-	border-bottom: 2px solid #888;
+	border-bottom: 4px solid #FF8C00;
 }
 
 .verticalcenter {
@@ -199,7 +196,6 @@ html, body, h1, h2, p {
 	padding-bottom: 7em;
 	width: 100%;
 	background-color: #333;
-	position: absolute;
 	letter-spacing: 0.05em;
 }
 
@@ -219,12 +215,17 @@ html, body, h1, h2, p {
   position: absolute;
   top:100%;
   left:50%;
-  width: 120px;
+  width: 100px;
   border:2px solid #FF8C00;
   border-radius:4px;
   box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
   transform:translateX(-50%);
 
+}
+
+.me {
+	border-radius: 50%;
+	width: 200px;
 }
 /*========= Media Queries =========*/
 
