@@ -81,9 +81,9 @@ a:hover {
 	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 	-webkit-animation-duration: 1.5s;
-  	-webkit-animation-delay: 1s;
+  	-webkit-animation-delay: 1.4s;
   	-moz-animation-duration: 1.5s;
-  	-moz-animation-delay: 1s;
+  	-moz-animation-delay: 1.4s;
 }
 
 #desk {
@@ -93,9 +93,9 @@ a:hover {
 	-moz-box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.75);
 	-webkit-animation-duration: 1.5s;
-  	-webkit-animation-delay: 1.4s;
+  	-webkit-animation-delay: 2s;
   	-moz-animation-duration: 1.5s;
-  	-moz-animation-delay: 1.4s;
+  	-moz-animation-delay: 2s;
 }
 
 #ukulele {
@@ -106,9 +106,9 @@ a:hover {
 	-moz-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 	-webkit-animation-duration: 1.5s;
-  	-webkit-animation-delay: 1.1s;
+  	-webkit-animation-delay: 1.6s;
   	-moz-animation-duration: 1.5s;
-  	-moz-animation-delay: 1.1s;
+  	-moz-animation-delay: 1.6s;
 }
 
 #guitar {
@@ -118,9 +118,9 @@ a:hover {
 	-moz-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 	-webkit-animation-duration: 1.5s;
-  	-webkit-animation-delay: 1.1s;
+  	-webkit-animation-delay: 1.6s;
   	-moz-animation-duration: 1.5s;
-  	-moz-animation-delay: 1.1s;
+  	-moz-animation-delay: 1.6s;
 }
 
 #food {
@@ -130,12 +130,33 @@ a:hover {
 	-moz-box-shadow: -3px -3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: -3px -3px 5px 0px rgba(0,0,0,0.75);
 	-webkit-animation-duration: 1.5s;
-  	-webkit-animation-delay: 1.3s;
+  	-webkit-animation-delay: 1.8s;
   	-moz-animation-duration: 1.5s;
-  	-moz-animation-delay: 1.3s;
+  	-moz-animation-delay: 1.8s;
 }
 
 /*============ Captions ============*/
+
+#first {
+	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: 0.2s;
+  	-moz-animation-duration: 1s;
+  	-moz-animation-delay: 0.2s;
+}
+
+#second {
+	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: 0.7s;
+  	-moz-animation-duration: 1s;
+  	-moz-animation-delay: 0.7s;
+}
+
+#third {
+	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: 1.2s;
+  	-moz-animation-duration: 1s;
+  	-moz-animation-delay: 1.2s;	
+}
 
 .latteText {
 	margin-top: 25vh;
@@ -350,8 +371,17 @@ footer {
 	}
 }
 
+@media (min-width: 993px){
+	#first, #second, #third {
+		display: none;
+	}
+}
+
 @media (max-width: 992px){
-	
+	#firstDesktop, #secondDesktop, #thirdDesktop {
+		display: none;
+	}
+
 	.images {
 		display: none;
 	}
