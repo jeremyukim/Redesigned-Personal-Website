@@ -4,8 +4,8 @@ $(window).load(function(){
 	$("#guitar").css("display", "inline").addClass("animated fadeInRight");
 	$("#desk").css("display", "inline").addClass("animated fadeInLeft");
 	$("#food").css("display", "inline").addClass("animated fadeInUp");
-	$(".latteText").addClass("animated zoomIn");
-	$(".guitarText").addClass("animated zoomIn");
-	$(".webappText").addClass("animated zoomIn");
-	$(".foodText").addClass("animated zoomIn");
+	$(".latteText").css("display", "inline").addClass("animated zoomIn");
+	$(".guitarText").css("display", "inline").addClass("animated zoomIn");
+	$(".webappText").css("display", "inline").addClass("animated zoomIn");
+	$(".foodText").css("display", "inline").addClass("animated zoomIn");
 });
