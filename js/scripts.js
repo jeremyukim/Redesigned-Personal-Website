@@ -1,9 +1,9 @@
 $(window).load(function(){
-	$("#latte").addClass("animated fadeInDown");
-	$("#ukulele").addClass("animated fadeInRight");
-	$("#guitar").addClass("animated fadeInRight");
-	$("#desk").addClass("animated fadeInLeft");
-	$("#food").addClass("animated fadeInUp");
+	$("#latte").css("display", "inline").addClass("animated fadeInDown");
+	$("#ukulele").css("display", "inline").addClass("animated fadeInRight");
+	$("#guitar").css("display", "inline").addClass("animated fadeInRight");
+	$("#desk").css("display", "inline").addClass("animated fadeInLeft");
+	$("#food").css("display", "inline").addClass("animated fadeInUp");
 	$(".latteText").addClass("animated zoomIn");
 	$(".guitarText").addClass("animated zoomIn");
 	$(".webappText").addClass("animated zoomIn");

@@ -83,7 +83,7 @@ a:hover {
 	-webkit-animation-duration: 1.5s;
 
   	-moz-animation-duration: 1.5s;
-
+  	display: none;
 }
 
 #desk {
@@ -95,7 +95,7 @@ a:hover {
 	-webkit-animation-duration: 1.5s;
 
   	-moz-animation-duration: 1.5s;
-
+  	display: none;
 }
 
 #ukulele {
@@ -108,7 +108,7 @@ a:hover {
 	-webkit-animation-duration: 1.5s;
 
   	-moz-animation-duration: 1.5s;
-
+  	display: none;
 }
 
 #guitar {
@@ -120,7 +120,7 @@ a:hover {
 	-webkit-animation-duration: 1.5s;
 
   	-moz-animation-duration: 1.5s;
-
+  	display: none;
 }
 
 #food {
@@ -132,7 +132,7 @@ a:hover {
 	-webkit-animation-duration: 1.5s;
 
   	-moz-animation-duration: 1.5s;
-
+  	display: none;
 }
 
 /*============ Captions ============*/
