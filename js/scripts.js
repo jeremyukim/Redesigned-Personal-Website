@@ -1,0 +1,11 @@
+$(window).load(function(){
+	$("#latte").addClass("fadeInDown");
+	$("#ukulele").addClass("fadeInRight");
+	$("#guitar").addClass("fadeInRight");
+	$("#desk").addClass("fadeInLeft");
+	$("#food").addClass("fadeInUp");
+	$("#latteText").addClass("zoomIn");
+	$("#guitarText").addClass("zoomIn");
+	$("#webappText").addClass("zoomIn");
+	$("#foodText").addClass("zoomIn");
+});
