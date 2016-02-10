@@ -1,11 +1,11 @@
-$(window).load(function(){
-	$("#latte").addClass("fadeInDown");
-	$("#ukulele").addClass("fadeInRight");
-	$("#guitar").addClass("fadeInRight");
-	$("#desk").addClass("fadeInLeft");
-	$("#food").addClass("fadeInUp");
-	$("#latteText").addClass("zoomIn");
-	$("#guitarText").addClass("zoomIn");
-	$("#webappText").addClass("zoomIn");
-	$("#foodText").addClass("zoomIn");
+$(document).ready(function(){
+	$("#latte").addClass("animated fadeInDown");
+	$("#ukulele").addClass("animated fadeInRight");
+	$("#guitar").addClass("animated fadeInRight");
+	$("#desk").addClass("animated fadeInLeft");
+	$("#food").addClass("animated fadeInUp");
+	$(".latteText").addClass("animated zoomIn");
+	$(".guitarText").addClass("animated zoomIn");
+	$(".webappText").addClass("animated zoomIn");
+	$(".foodText").addClass("animated zoomIn");
 });

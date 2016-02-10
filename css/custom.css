@@ -179,9 +179,9 @@ a:hover {
 
 .latteText, .guitarText, .foodText, .webappText {
 	-webkit-animation-duration: 1s;
-  	-webkit-animation-delay: 1.8s;
+  	-webkit-animation-delay: 0.5s;
   	-moz-animation-duration: 1s;
-  	-moz-animation-delay: 1.8s;
+  	-moz-animation-delay: 0.5s;
 }
 /*=============================*/
 .intro {
