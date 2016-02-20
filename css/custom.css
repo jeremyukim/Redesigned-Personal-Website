@@ -46,8 +46,17 @@ a:hover {
 	font-style: italic;
 }
 
+.openSansBody {
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
 .lato {
 	font-family: "lato";
+}
+
+.extraSpacing {
+	letter-spacing: 0.2em;
 }
 
 /*=========== Images =========*/
@@ -322,13 +331,14 @@ a:hover {
 }
 
 .subheading {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	font-family: "Open Sans";
 }
 
 .description {
 	font-size: 1.1em;
-	font-family: "lato";
+	font-family: "Open Sans";
+	font-weight: 300;
 }
 
 .orange {

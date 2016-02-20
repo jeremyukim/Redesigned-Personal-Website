@@ -1,4 +1,4 @@
-$(window).load(function(){
+$(document).ready(function(){
 	$("#latte").css("display", "inline").addClass("animated fadeInDown");
 	$("#ukulele").css("display", "inline").addClass("animated fadeInRight");
 	$("#guitar").css("display", "inline").addClass("animated fadeInRight");
