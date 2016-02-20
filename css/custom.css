@@ -456,34 +456,6 @@ footer {
 	}
 }
 
-@media (max-width: 390px){
-
-	.name {
-		font-size: 2.5em;
-	}
-}
-
-@media (max-width: 355px){
-
-	.name {
-		font-size: 2.2em;
-	}
-}
-
-@media (max-width: 340px){
-
-	.name {
-		font-size: 2em;
-	}
-}
-
-@media (max-width: 322px){
-
-	.name {
-		font-size: 1.8em;
-	}
-}
-
 @media (min-width: 1600px){
 
 	.latteText {
