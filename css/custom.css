@@ -54,6 +54,7 @@ a:hover {
 	cursor: pointer;
 	right: 30px;
 	z-index: 99;
+/*	background-color: inherit;*/
 }
 
 .icon-close {
@@ -117,14 +118,26 @@ a:hover {
 	font-weight: 300;
 }
 
-.lato {
-	font-family: "lato";
-}
-
 .extraSpacing {
 	letter-spacing: 0.25em;
 }
 
+.collapseAndExpand {
+	width: 30px;
+	display: inline-block;
+	margin-left: 6px;
+	border-radius: 50%;
+	-webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+
+.learnMore {
+	display: inline;
+	font-family: "Open Sans";
+	font-size: 1.2em;
+}
 /*=========== Images =========*/
 .contain {
 	max-width: 100%;
@@ -470,8 +483,8 @@ footer {
 	.icon-menu {
 		right: 20px;
 		top: 5px;
-		font-size: 1.5em;
-		padding: 0 4px;
+		font-size: 2em;
+		padding: 0 7px;
 	}
 
 	.logo {
