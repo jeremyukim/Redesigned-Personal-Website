@@ -32,7 +32,7 @@ a:hover {
 
 .menu {
 	right: -285px;
-	height: 100%;
+	height: 100vh;
 	position: fixed;
 	z-index: 100;
 	background-image: linear-gradient(145deg, #1D1F20, #404348);
