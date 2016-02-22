@@ -54,9 +54,7 @@ a:hover {
 	cursor: pointer;
 	right: 30px;
 	z-index: 99;
-	width: 63px;
-	height: 63px;
-	border-radius: 50%;
+	border-radius: 10%;
 }
 
 .icon-close {
@@ -488,8 +486,6 @@ footer {
 		top: 5px;
 		font-size: 2.2em;
 		padding: 0 8px;
-		width: 45px;
-		height: 45px;
 	}
 
 	.logo {
