@@ -54,8 +54,9 @@ a:hover {
 	cursor: pointer;
 	right: 30px;
 	z-index: 99;
-	color: #FF8C00;
-	background-color: inherit;
+/*	background-color: #FF8C00;
+	border-radius: 50%;
+	border: 1px solid #FF8C00;*/
 }
 
 .icon-close {
@@ -485,8 +486,11 @@ footer {
 	.icon-menu {
 		right: 20px;
 		top: 5px;
-		font-size: 2.4em;
-		padding: 0 7px;
+		font-size: 2.2em;
+		padding: 0 8px;
+		background-color: #FF8C00;
+		border-radius: 50%;
+		color: #fff;
 	}
 
 	.logo {
