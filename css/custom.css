@@ -9,7 +9,7 @@ html, body, h1, h2, p {
 .whiteText {
 	color: #fff;
 	background: #333;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .whiteBG {
@@ -522,7 +522,7 @@ footer {
 	}
 }
 
-@media (max-width: 770px){
+@media (max-width: 767px){
 	#aboutText {
 		font-size: 2.5em;
 	}
@@ -548,6 +548,41 @@ footer {
 
 	.nav {
 		margin-top: 7em;
+	}
+
+	#aboutText {
+		font-size: 2.5em;
+	}
+
+	.whiteText, .description {
+		font-size: 1.1em;
+	}
+
+	.subheading {
+		font-size: 1.3em;
+	}
+}
+
+@media (max-width: 400px){
+
+	.name {
+		font-size: 2.25em;
+	}
+
+	.nav {
+		margin-top: 7em;
+	}
+
+	#aboutText {
+		font-size: 2em;
+	}
+
+	.whiteText, .description {
+		font-size: 1em;
+	}
+
+	.subheading {
+		font-size: 1.2em;
 	}
 }
 
