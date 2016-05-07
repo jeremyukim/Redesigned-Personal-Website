@@ -563,10 +563,10 @@ footer {
 	}
 }
 
-@media (max-width: 400px){
+@media (max-width: 350px){
 
 	.name {
-		font-size: 2.25em;
+		font-size: 2.1em;
 	}
 
 	.nav {
