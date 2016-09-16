@@ -6,6 +6,97 @@ html, body, h1, h2, p {
 	background-color: #f1f1f1;
 }
 
+.whiteText {
+	color: #fff;
+	background: #333;
+	font-size: 1.1em;
+}
+
+.whiteBG {
+	background: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #DD6A00;
+}
+
+.boxShadow {
+	box-shadow: 0px 0px 2px 2px #e3e3e3;
+}
+
+.menu {
+	right: -285px;
+	height: 100vh;
+	position: fixed;
+	z-index: 100;
+	background-image: linear-gradient(145deg, #1D1F20, #404348);
+}
+
+.menuDesktop {
+
+}
+
+.menuMobile {
+	display: none;
+}
+
+.icon-menu {
+	padding: 0 11px;
+	position: fixed;
+	font-size: 3em;
+	margin-top: 35px;
+	cursor: pointer;
+	right: 30px;
+	z-index: 99;
+	border-radius: 10%;
+}
+
+.icon-close {
+	margin-top: 5px;
+	margin-left: 6px;
+	width: 30px;
+	height: 30px;
+	background-color: inherit;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.firstNav {
+	margin-top: 23px;
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+	font-size: 1.2em;
+	margin-left: -20px;
+	padding-right: 20px;
+}
+
+.navEntry {
+	margin-top: 30px;
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+	font-size: 1.2em;
+	margin-left: -20px;
+	padding-right: 20px;
+}
+
+.firstNav a {
+	color: #fff;
+	cursor: pointer;
+}
+
+.navEntry a {
+	color: #fff;
+	cursor: pointer;
+}
+
 /*========== Fonts ===========*/
 .script {
 	font-family: "Kaushan Script", cursive;
@@ -22,8 +113,30 @@ html, body, h1, h2, p {
 	font-style: italic;
 }
 
-.lato {
-	font-family: "lato";
+.openSansBody {
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
+.extraSpacing {
+	letter-spacing: 0.25em;
+}
+
+.collapseAndExpand {
+	width: 35px;
+	display: inline-block;
+	margin-left: 7px;
+	border-radius: 50%;
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+
+.learnMore {
+	display: inline;
+	font-family: "Open Sans";
+	font-size: 1.2em;
 }
 /*=========== Images =========*/
 .contain {
@@ -36,22 +149,29 @@ html, body, h1, h2, p {
 	z-index: 10;
 }
 
+.logo {
+	width: 65px;
+	margin-top: 4em;
+	margin-right: 4em;
+
+}
+
 .images {
-	z-index: 1;
 	position: absolute;
-	max-width: 100%;
+	width: 98%;
 }
 
 #latte {
+	clear: right;
 	width: 32%;
-	margin: 35vh -1vh 0.5vh 0;
+	margin: 0 -1vh 0.5vh 0;
 	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 	-webkit-animation-duration: 1.5s;
-  	-webkit-animation-delay: 1s;
+
   	-moz-animation-duration: 1.5s;
-  	-moz-animation-delay: 1s;
+  	display: none;
 }
 
 #desk {
@@ -61,33 +181,34 @@ html, body, h1, h2, p {
 	-moz-box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.75);
 	-webkit-animation-duration: 1.5s;
-  	-webkit-animation-delay: 1.4s;
+
   	-moz-animation-duration: 1.5s;
-  	-moz-animation-delay: 1.4s;
+  	display: none;
 }
 
 #ukulele {
+	clear: left;
 	width: 14.4%;
-	margin: 25vh 0 0vh -1vh;
+	margin: 0 0 0vh -1vh;
 	-webkit-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 	-webkit-animation-duration: 1.5s;
-  	-webkit-animation-delay: 1.1s;
+
   	-moz-animation-duration: 1.5s;
-  	-moz-animation-delay: 1.1s;
+  	display: none;
 }
 
 #guitar {
 	width: 6.6%;
-	margin: 25vh 0 0vh 1vh;
+	margin: 0 0 0vh 1vh;
 	-webkit-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.75);
 	-webkit-animation-duration: 1.5s;
-  	-webkit-animation-delay: 1.1s;
+
   	-moz-animation-duration: 1.5s;
-  	-moz-animation-delay: 1.1s;
+  	display: none;
 }
 
 #food {
@@ -97,11 +218,60 @@ html, body, h1, h2, p {
 	-moz-box-shadow: -3px -3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: -3px -3px 5px 0px rgba(0,0,0,0.75);
 	-webkit-animation-duration: 1.5s;
-  	-webkit-animation-delay: 1.3s;
+
   	-moz-animation-duration: 1.5s;
-  	-moz-animation-delay: 1.3s;
+  	display: none;
 }
 
+/*============ Captions ============*/
+
+#first {
+	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: 0.2s;
+  	-moz-animation-duration: 1s;
+  	-moz-animation-delay: 0.2s;
+}
+
+#second {
+	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: 0.7s;
+  	-moz-animation-duration: 1s;
+  	-moz-animation-delay: 0.7s;
+}
+
+#third {
+	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: 1.2s;
+  	-moz-animation-duration: 1s;
+  	-moz-animation-delay: 1.2s;
+}
+
+.latteText {
+	margin-top: 25vh;
+	margin-right: 7vh;
+}
+
+.guitarText {
+	margin-top: 15vh;
+}
+
+.foodText {
+	margin-top: -3.5vh;
+	margin-left: 8vh;
+}
+
+.webappText {
+	margin-top: 1vh;
+	margin-right: 5.5vh;
+}
+
+.latteText, .guitarText, .foodText, .webappText {
+	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: 0.5s;
+  	-moz-animation-duration: 1s;
+  	-moz-animation-delay: 0.5s;
+  	display: none;
+}
 /*=============================*/
 .intro {
 	display: inline-block;
@@ -111,7 +281,7 @@ html, body, h1, h2, p {
 }
 
 .eng {
-	border-bottom: 1px solid #000;
+	border-bottom: 4px solid #FF8C00;
 }
 
 .verticalcenter {
@@ -129,7 +299,7 @@ html, body, h1, h2, p {
 .name {
 	overflow: hidden;
 	font-size: 4em;
-	background: rgba(10, 10, 10, 0.7);
+	background: rgba(10, 10, 10, 0.8);
 	color: #fff;
 	padding: 3px 80px;
 	margin: 0;
@@ -146,22 +316,183 @@ html, body, h1, h2, p {
 	margin-bottom: 1.5em;
 	font-size: 1.2em;
 	max-width: 100%;
-	border-bottom: 1px solid #aaa;
+	border-bottom: 1px solid #777;
 }
 
+/*========= About =========*/
+#aboutSection {
+	padding-top: 7em;
+	padding-bottom: 7em;
+	width: 100%;
+	background-color: #333;
+	letter-spacing: 0.0em;
+}
 
+#aboutText {
+	background: #333;
+	font-size: 3.5em;
+	letter-spacing: 0.03em;
+	margin-bottom: 0.5em;
+}
+
+.headline {
+  position: relative;
+}
+
+.headline:after {
+  content:' ';
+  position: absolute;
+  top:100%;
+  left:50%;
+  width: 100px;
+  border:2px solid #FF8C00;
+  border-radius:4px;
+  box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+  transform:translateX(-50%);
+
+}
+
+.me {
+	border-radius: 50%;
+	width: 200px;
+	box-shadow: 1px 1px 0px 0px #000;
+}
+
+/*========= Experience =========*/
+#experienceSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	background-color: #fff;
+}
+
+#pivotalSection {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+/*========= Projects =========*/
+#projectSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	background-color: #fff;
+}
+
+.blackTitleOnWhite {
+	font-size: 3.5em;
+	color: #000;
+	background: #fff;
+}
+
+.blackTitleOnGrey {
+	font-size: 3.5em;
+	color: #000;
+	background: #f1f1f1;
+}
+
+#project1Section {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.project2Section {
+	padding-top: 5em;
+	padding-bottom: 5em;
+	background-color: #fff;
+}
+
+#project3Section {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.projectTitle {
+	font-size: 2.5em;
+}
+
+.projectTitle2 {
+	font-size: 1.5em;
+}
+
+.subheading {
+	font-size: 1.4em;
+	font-family: "Open Sans";
+}
+
+.description {
+	font-size: 1.1em;
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
+.orange {
+	color: #FF8C00;
+	background: ;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Kaushan Script";
+  color: #ffffff;
+  font-size: 22px;
+  background: #FF8C00;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  box-shadow: 1px 1px 0px 0px #000;
+}
+
+.btn:hover {
+  background: #EE7B00;
+  text-decoration: none;
+}
+
+footer {
+	background-color: #333;
+	padding: 1em 0 0.5em 0;
+}
 /*========= Media Queries =========*/
 
-@media (max-width: 1220px){
+@media (max-width: 1320px){
 
 	.name {
 		font-size: 2.8em;
 	}
+
+	.webappText {
+		margin-right: 0;
+	}
 }
 
-@media (max-width: 992px){
-	
-	.images {
+@media (min-width: 993px){
+	#first, #second, #third {
+		display: none;
+	}
+}
+
+@media (max-width: 991px){
+
+	#firstDesktop, #secondDesktop, #thirdDesktop {
+		display: none;
+	}
+
+	.images, .menuDesktop {
+		display: none;
+	}
+
+	.menuMobile {
+		display: inline;
+	}
+
+	.icon-menu {
+		right: 20px;
+		top: 5px;
+		font-size: 2.1em;
+		padding: 0 5px;
+	}
+
+	.logo {
 		display: none;
 	}
 
@@ -183,11 +514,29 @@ html, body, h1, h2, p {
 	}
 
 	.name {
-		font-size: 2.3em;
+		font-size: 3em;
 	}
 
 	.verticalcenter {
 		height: 0;
+	}
+}
+
+@media (max-width: 767px){
+	#aboutText {
+		font-size: 2.5em;
+	}
+
+	.me {
+		display: none;
+	}
+
+	.btn {
+		margin-top: 15px;
+	}
+
+	.boxShadow {
+		margin-top: 20px;
 	}
 }
 
@@ -200,93 +549,182 @@ html, body, h1, h2, p {
 	.nav {
 		margin-top: 7em;
 	}
-}
 
-@media (max-width: 390px){
-
-	.name {
+	#aboutText {
 		font-size: 2.5em;
 	}
-}
 
-@media (max-width: 355px){
+	.whiteText, .description {
+		font-size: 1.1em;
+	}
 
-	.name {
-		font-size: 2.2em;
+	.subheading {
+		font-size: 1.3em;
 	}
 }
 
-@media (max-width: 340px){
+@media (max-width: 350px){
 
 	.name {
+		font-size: 2.1em;
+	}
+
+	.nav {
+		margin-top: 7em;
+	}
+
+	#aboutText {
 		font-size: 2em;
 	}
-}
 
-@media (max-width: 322px){
+	.whiteText, .description {
+		font-size: 1em;
+	}
 
-	.name {
-		font-size: 1.8em;
+	.subheading {
+		font-size: 1.2em;
 	}
 }
 
 @media (min-width: 1600px){
 
-	#latte {
-		margin-top: 30vh;
+	.latteText {
+		margin-top: 25vh;
 	}
 
-	#guitar, #ukulele {
-		margin-top: 20vh;
-		margin-bottom: 2vh;
+	.guitarText {
+		margin-top: 15vh;
+	}
+
+	.foodText {
+		margin-top: -6vh;
 	}
 }
 
 @media (max-height: 500px) and (min-width: 1000px){
 
-	#latte {
-		margin-top: 20vh;
+	.latteText {
+		margin-top: 0vh;
 	}
 
-	#guitar, #ukulele {
-		margin-top: 10vh;
-		margin-bottom: 2vh;
+	.guitarText {
+		margin-top: 0vh;
 	}
 }
 
 @media (max-height: 800px) and (min-width: 1300px){
 
-	#latte {
-		margin-top: 15vh;
+	.latteText {
+		margin-top: 10vh;
 	}
 
-	#guitar, #ukulele {
+	.guitarText {
 		margin-top: 5vh;
-		margin-bottom: 2vh;
 	}
 }
 
-@media (min-height: 400px) and (max-width: 1000px){
+@media (min-height: 400px) and (max-width: 1600px){
 
-	#latte {
-		margin-top: 30vh;
+	.latteText {
+		margin-top: 33vh;
 	}
 
-	#guitar, #ukulele {
-		margin-top: 20vh;
-		margin-bottom: 2vh;
+	.guitarText {
+		margin-top: 23vh;
 	}
 }
 
 @media (min-height: 600px) and (min-width: 1250px) and (max-width: 1600px){
 
-	#latte {
-		margin-top: 33vh;
+	.latteText {
+		margin-top: 28vh;
+	}
+
+	.guitarText {
+		margin-top: 18vh;
+	}
+}
+
+@media (max-height:599px) and (min-width: 1000px){
+
+	.latteText {
+		margin-top: 20vh;
+	}
+
+	.guitarText {
+		margin-top: 5vh;
+	}
+}
+
+@media (max-width: 1250px) and (max-height: 650px){
+
+	.latteText {
+		margin-top: 30vh;
+	}
+
+	.guitarText {
+		margin-top: 15vh;
+	}
+}
+
+@media (min-width: 1600px) and (max-height: 900px){
+
+	.latteText {
+		margin-top: 25vh;
+	}
+
+	.guitarText {
+		margin-top: 10vh;
+	}
+}
+
+@media (min-width: 1200px){
+
+	.foodText {
+		margin-top: -5vh;
 	}
 
 	#guitar, #ukulele {
-		margin-top: 23vh;
 		margin-bottom: 2vh;
 	}
 }
 
+@media (max-width: 1400px) and (min-height: 850px){
+
+	.latteText {
+		margin-top: 30vh;
+	}
+
+	.guitarText {
+		margin-top: 17vh;
+	}
+}
+
+@media (max-width: 1250px) and (min-height: 750px){
+
+	.latteText {
+		margin-top: 35vh;
+	}
+
+	.guitarText {
+		margin-top: 27vh;
+	}
+}
+
+@media (max-width: 1400px) and (min-width: 1249px) and (min-height: 800px){
+
+	.guitarText {
+		margin-top: 22vh;
+	}
+}
+
+@media (min-height: 550px) and (min-width: 1250px) and (max-height: 700px) and (max-width: 1650px){
+
+	.latteText {
+		margin-top: 20vh;
+	}
+
+	.guitarText {
+		margin-top: 10vh;
+	}
+}

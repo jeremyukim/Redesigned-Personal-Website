@@ -7,65 +7,211 @@
 	    <title>Jeremy Kim | Portfolio</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
 		<link href="css/custom.css" rel="stylesheet">
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:600,800italic|Lato:100|Kaushan+Script' rel='stylesheet' type='text/css'>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="scripts.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600,800italic|Kaushan+Script' rel='stylesheet' type='text/css'>
+		<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
+		<div class="menu">
+			<div class="icon-close">
+        		<img src="img/close.png" class="pull-left icon-close"></img>
+      		</div>
+      		<ul>
+				<li class="openSansBody extraSpacing firstNav"><a href="#aboutSection">ABOUT</a></li>
+				<li class="openSansBody extraSpacing navEntry"><a href="#experienceSection">EXPERIENCE</a></li>
+				<li class="openSansBody extraSpacing navEntry"><a href="#projectSection">PROJECTS</a></li>
+				<li class="openSansBody extraSpacing navEntry"><a href="https://medium.com/@jeremyukim" target="_blank">BLOG</a></li>
+			</ul>
+		</div>
 		<div class="container-fluid">
-			<div class="contain">
-				<div class="images container-fluid">
+<!--========================= Landing Page ===========================-->
+			<div class="images">
+				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-6">
-							<img id="latte" class="animated fadeInDown img-responsive pull-right" src="img/latte.jpg">
+							<p class="openSans pull-right latteText">coffee lover</p>
+							<img id="latte" class="img-responsive pull-right" src="img/latte.jpg">
 						</div>
 						<div class="col-md-6">
-							<img id="ukulele" class="animated fadeInRight img-responsive pull-left" src="img/ukulelecut.png">
-							<img id="guitar" class="animated fadeInRight img-responsive pull-left" src="img/guitarcut.png">
+						  <p class="openSans pull-left guitarText">guitar / ukulele hobbyist</p>
+							<img id="ukulele" class="img-responsive pull-left" src="img/ukulelecut.png">
+							<img id="guitar" class="img-responsive pull-left" src="img/guitarcut.png">
 						</div>
-					</div> 
+					</div>
 					<div class="row">
 						<div class="col-md-6">
-							<img id="desk" class="animated fadeInLeft img-responsive pull-right" src="img/deskwithmacbook.jpg">
+							<img id="desk" class="img-responsive pull-right" src="img/desk.jpg">
 						</div>
 						<div class="col-md-6">
-							<img id="food" class="animated fadeInUp img-responsive pull-left" src="img/food.jpg">
+							<img id="food" class="img-responsive pull-left" src="img/food.jpg">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+						  <p class="openSans pull-right webappText">web and applications developer</p>
+						</div>
+						<div class="col-md-6">
+						  <p class="openSans pull-left foodText">foodie</p>
 						</div>
 					</div>
 				</div>
-				<div class="main-content">
-					<div class="row">
-						<div class="col-md-3">
-							<div class="intro">
-								<h1 class="script">Design,</h1>
-								<h1 class="openSans">Develop,</h1>
-								<h1 class="openSansItalic eng">Engineer.</h1>
-							</div>
-						</div>
-						<div class="col-md-6 verticalcenter">
-							 <div class="namediv text-center">
-								 <p class="name lato">J E R E M Y &nbsp K I M</p>
-							 </div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-3">
-								<!--============ Nav ============-->
-							<div class="nav">
-								<p class="openSans nav_entry">A B O U T</p>
-								<p class="openSans nav_entry">P R O J E C T S</p>
-								<p class="openSans nav_entry">R E S U M E</p>
-								<p class="openSans nav_entry">C O N T A C T</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				
 			</div>
-	  </div>
+			<div class="main-content">
+				<div class="row">
+
+					<div class="col-md-3">
+						<div class="intro">
+							<h1 id="first" class="script animated fadeInLeft">Design,</h1>
+							<h1 id="second" class="openSans animated fadeInLeft">Develop,</h1>
+							<h1 id="third" class="openSansItalic eng animated fadeInLeft">Engineer.</h1>
+							<h1 id="firstDesktop" class="script">Design,</h1>
+							<h1 id="secondDesktop" class="openSans">Develop,</h1>
+							<h1 id="thirdDesktop" class="openSansItalic eng">Engineer.</h1>
+						</div>
+						<p class="pull-right icon-menu menuMobile">☰</p>
+					</div>
+					<div class="col-md-6 verticalcenter">
+						 <div class="namediv text-center">
+							 <p class="name openSansBody extraSpacing">JEREMY KIM</p>
+						 </div>
+					</div>
+					<div class="col-md-3">
+						<p class="pull-right icon-menu menuDesktop">☰</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+<!--========================= Nav ===========================-->
+						<div class="nav">
+							<p class="openSans nav_entry extraSpacing"><a href="#aboutSection">ABOUT</a></p>
+							<p class="openSans nav_entry extraSpacing"><a href="#experienceSection">EXPERIENCE</a></p>
+							<p class="openSans nav_entry extraSpacing"><a href="#projectSection">PROJECTS</a></p>
+							<p class="openSans nav_entry extraSpacing"><a href="https://medium.com/@jeremyukim">BLOG</a></p>
+						</div>
+<!--========================= /Nav ===========================-->
+					</div>
+				</div>
+			</div>
+	    </div>
+<!--========================= /Landing Page ===========================-->
+<!--========================= About ===========================-->
+	<section id="aboutSection">
+		<div class="container">
+			<p class="script whiteText text-center" id="aboutText"><span class="headline">It's nice to meet you!</span></p>
+			<div class="row">
+				<div class="col-sm-3 col-sm-offset-1">
+					<img src="img/me.png" class="img-responsive me pull-right">
+				</div>
+				<div class="col-sm-7">
+					<p class="openSansBody whiteText">I'm an aspiring web and mobile application developer, studying systems design engineering at the University of Waterloo.  Last April I finished a four month internship at Pivotal Labs Toronto, and am currently seeking one for this coming September!</p>
+					<p class="openSansBody whiteText">I have a passion for design and creating beautiful interfaces optimized for functionality.  Outside of coding I love playing the guitar and ukulele, watching movies, traveling, and staying in shape through a variety of activities.
+					</p>
+				</div>
+			</div>
+			<div class="row text-center">
+				<a class="btn" href="resume.pdf">Resume</a>
+			</div>
+	</section>
+<!--========================= /About ===========================-->
+<!--========================= Experience ===========================-->
+	<section id="experienceSection">
+		<div class="container">
+			<p class="openSans text-center blackTitleOnWhite"><span class="headline">EXPERIENCE</span></p>
+		</div>
+	</section>
+	<section id="pivotalSection">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-7">
+					<p class="openSans blackTitleOnGrey projectTitle">Pivotal Labs</p>
+					<p class="subheading">Agile Test Engineer | January - April 2016 | Toronto, ON</p>
+					<p class="description">As part of the Exploratory Testing Team at Pivotal, my responsibilities included testing web and mobile applications in continuous integration, conducting charters to find bugs and suggest new features, developing UI automation tests with Google's Espresso framework, and contributing to the front-end development of an internal web application. </p>
+					<p class="description">During this term I experienced the agile development process firsthand while testing major applications in a fast-paced environment.</p>
+				</div>
+				<div class="col-sm-5">
+					<img src="img/pivotal.png" class="img-responsive boxShadow">
+				</div>
+			</div>
+		</div>
+	</section>
+<!--========================= /Experience ===========================-->
+<!--========================= Projects ===========================-->
+	<section id="projectSection">
+		<div class="container">
+			<p class="openSans text-center blackTitleOnWhite"><span class="headline">PROJECTS</span></p>
+		</div>
+	</section>
+	<section id="project1Section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<p class="openSans blackTitleOnGrey projectTitle">VLT</p>
+					<p class="subheading">A Web Application</p>
+					<p class="description">Designing the user interface and constructing a mockup to facilitate development.</p>
+					<p class="description">Voluntell is an ongoing project in its early stages, with the goal of connecting people to volunteer opportunities nearby. Currently, I am designing and constructing a mockup with Adobe Illustrator to guide front-end development.</p>
+					<span class="learnMore">Learn more<img src="img/plus_button.png" class="img-responsive collapseAndExpand expand" data-toggle="collapse" data-target="#moreVoluntell"></span>
+				</div>
+				<div class="col-sm-6">
+					<img src="img/vlt.png" class="img-responsive boxShadow">
+				</div>
+			</div>
+			<div id="moreVoluntell" class="collapse">
+				<h2 class="openSans projectTitle2">The Mission Statement, Target Audience, and Personas.</h2>
+    			<p class="openSansBody">Soon to be added!</p>
+  			</div>
+		</div>
+	</section>
+	<section class="project2Section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-push-6">
+					<p class="openSans blackTitleOnWhite projectTitle">CHURCH WEBSITE</p>
+					<p class="subheading whiteBG">milalohana.ca</p>
+					<p class="description whiteBG">Designed and developed the website for Milal Church's English Ministry Youth. </p>
+					<p class="description whiteBG">In the summer of 2015, I spent much of my time self-teaching web development languages and the Twitter Bootstrap framework using a variety of online resources. Initially, my goal was to create a personal website, starting from a rough concept sketch and ending with a polished product live on the web. I soon shifted my focus to designing and programming the website for my church youth. </p>
+					<span class="learnMore">Learn more<img src="img/plus_button.png" class="img-responsive collapseAndExpand expand" data-toggle="collapse" data-target="#moreOhana"></span>
+				</div>
+				<div class="col-sm-6 col-sm-pull-6">
+					<img src="img/milalohana-home.png" class="img-responsive boxShadow">
+				</div>
+			</div>
+			<div id="moreOhana" class="collapse">
+				<h2 class="openSans projectTitle2 whiteBG">Needs Assessment and User Requirements</h2>
+    			<p class="openSansBody whiteBG">Soon to be added!</p>
+  			</div>
+		</div>
+	</section>
+	<section id="project3Section">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6">
+					<p class="openSans blackTitleOnGrey projectTitle">PERSONAL WEBSITE</p>
+					<p class="subheading">You're on it now!</p>
+					<p class="description">Developed a portfolio website from the ground up.</p>
+					<p class="description">This website serves as an online portfolio containing my contact information, work experience, past and current projects, and resume. It is always a work in progress as it is constantly added to, updated, and improved. </p>
+					<p class="description">To the right (or below if you're browsing on mobile) is a screenshot from the previous version of this site.  Head over to my <a href="https://github.com/jeremyukim">github</a> to view different iterations of my portfolio!</p>
+					<span class="learnMore">Learn more<img src="img/plus_button.png" class="img-responsive collapseAndExpand expand" data-toggle="collapse" data-target="#morePortfolio"></span>
+				</div>
+				<div class="col-sm-6">
+					<img src="img/jeremyukimcom.png" class="img-responsive boxShadow">
+				</div>
+			</div>
+			<div id="morePortfolio" class="collapse">
+				<h2 class="openSans projectTitle2">The Design Process</h2>
+    			<p class="openSansBody">Soon to be added!</p>
+  		</div>
+		</div>
+	</section>
+
+
+<!--========================= /Projects ===========================-->
 		<footer>
+			<p class="text-center openSansBody whiteText">Jeremy Kim &copy2016</p>
 		</footer>
+		<script type="text/javascript" src="js/scripts.js"></script>
 
 	</body>
 </html>
